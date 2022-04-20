@@ -1,0 +1,4 @@
+# Changelog for TerraProjectCore
+
+1.3.0 - First publish
+

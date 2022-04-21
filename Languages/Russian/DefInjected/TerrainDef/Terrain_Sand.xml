@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParchedSand.label>мягкий песок (пересохший)</ParchedSand.label>
+  <ParchedSand.tools.0.label>песок</ParchedSand.tools.0.label>
+  <DrySand.label>мягкий песок</DrySand.label>
+  <DrySand.tools.0.label>песок</DrySand.tools.0.label>
+  <NormalSand.label>песок</NormalSand.label>
+  <NormalSand.tools.0.label>песок</NormalSand.tools.0.label>
+  <WetSand.label>влажный песок</WetSand.label>
+  <WetSand.tools.0.label>песок</WetSand.tools.0.label>
+  <FloodedSand.label>затопленный песок</FloodedSand.label>
+  <FloodedSand.tools.0.label>вода</FloodedSand.tools.0.label>
+  <FrozenFloodedSand.label>замерзший затопленный песок</FrozenFloodedSand.label>
+</LanguageData>

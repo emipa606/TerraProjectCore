@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Generic terrain -->
+  <FloodedTerrain.label>затопленная местность</FloodedTerrain.label>
+  <FloodedTerrain.tools.0.label>вода</FloodedTerrain.tools.0.label>
+  <FrozenFloodedTerrain.label>замерзшая затопленная местность</FrozenFloodedTerrain.label>
+</LanguageData>

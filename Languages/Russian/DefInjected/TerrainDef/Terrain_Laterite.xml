@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParchedLaterite.label>пересохший латерит</ParchedLaterite.label>
+  <ParchedLaterite.tools.0.label>песок</ParchedLaterite.tools.0.label>
+  <DryLaterite.label>сухой латерит</DryLaterite.label>
+  <DryLaterite.tools.0.label>песок</DryLaterite.tools.0.label>
+  <NormalLaterite.label>латерит</NormalLaterite.label>
+  <NormalLaterite.tools.0.label>песок</NormalLaterite.tools.0.label>
+  <WetLaterite.label>влажный латерит</WetLaterite.label>
+  <WetLaterite.tools.0.label>песок</WetLaterite.tools.0.label>
+  <FloodedLaterite.label>затопленный латерит</FloodedLaterite.label>
+  <FloodedLaterite.tools.0.label>вода</FloodedLaterite.tools.0.label>
+  <FrozenFloodedLaterite.label>замерзший затопленный латерит</FrozenFloodedLaterite.label>
+</LanguageData>

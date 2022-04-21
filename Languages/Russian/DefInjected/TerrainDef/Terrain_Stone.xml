@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Sandstone -->
+  <FloodedSandstone.label>затопленный песчаник</FloodedSandstone.label>
+  <FloodedSandstone.tools.0.label>вода</FloodedSandstone.tools.0.label>
+  <FrozenFloodedSandstone.label>мерзлый затопленный песчаник</FrozenFloodedSandstone.label>
+  <!-- Granite -->
+  <FloodedGranite.label>затопленный гранит</FloodedGranite.label>
+  <FloodedGranite.tools.0.label>вода</FloodedGranite.tools.0.label>
+  <FrozenFloodedGranite.label>замерзший затопленный гранит</FrozenFloodedGranite.label>
+  <!-- Limestone -->
+  <FloodedLimestone.label>flooded limestone</FloodedLimestone.label>
+  <FloodedLimestone.tools.0.label>water</FloodedLimestone.tools.0.label>
+  <FrozenFloodedLimestone.label>frozen flooded limestone</FrozenFloodedLimestone.label>
+  <!-- Slate -->
+  <FloodedSlate.label>flooded slate</FloodedSlate.label>
+  <FloodedSlate.tools.0.label>water</FloodedSlate.tools.0.label>
+  <FrozenFloodedSlate.label>frozen flooded slate</FrozenFloodedSlate.label>
+  <!-- Marble -->
+  <FloodedMarble.label>flooded marble</FloodedMarble.label>
+  <FloodedMarble.tools.0.label>water</FloodedMarble.tools.0.label>
+  <FrozenFloodedMarble.label>frozen flooded marble</FrozenFloodedMarble.label>
+</LanguageData>

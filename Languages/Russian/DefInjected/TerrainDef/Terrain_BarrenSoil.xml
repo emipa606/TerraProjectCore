@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParchedBarrenSoil.label>пересохшая бесплодная почва</ParchedBarrenSoil.label>
+  <ParchedBarrenSoil.tools.0.label>грязь</ParchedBarrenSoil.tools.0.label>
+  <DryBarrenSoil.label>сухая бесплодная почва</DryBarrenSoil.label>
+  <DryBarrenSoil.tools.0.label>грязь</DryBarrenSoil.tools.0.label>
+  <NormalBarrenSoil.label>бесплодная почва</NormalBarrenSoil.label>
+  <NormalBarrenSoil.tools.0.label>грязь</NormalBarrenSoil.tools.0.label>
+  <WetBarrenSoil.label>влажная бесплодная почва</WetBarrenSoil.label>
+  <WetBarrenSoil.tools.0.label>грязь</WetBarrenSoil.tools.0.label>
+  <FloodedBarrenSoil.label>затопленная бесплодная почва</FloodedBarrenSoil.label>
+  <FloodedBarrenSoil.tools.0.label>вода</FloodedBarrenSoil.tools.0.label>
+  <FrozenFloodedBarrenSoil.label>замерзшая затопленная почва</FrozenFloodedBarrenSoil.label>
+</LanguageData>

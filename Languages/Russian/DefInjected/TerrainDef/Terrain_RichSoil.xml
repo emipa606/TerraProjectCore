@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParchedRichSoil.label>пересохшая богатая почва</ParchedRichSoil.label>
+  <ParchedRichSoil.tools.0.label>грязь</ParchedRichSoil.tools.0.label>
+  <DryRichSoil.label>сухая богатая почва</DryRichSoil.label>
+  <DryRichSoil.tools.0.label>грязь</DryRichSoil.tools.0.label>
+  <NormalRichSoil.label>богатая почва</NormalRichSoil.label>
+  <NormalRichSoil.tools.0.label>грязь</NormalRichSoil.tools.0.label>
+  <WetRichSoil.label>влажная богатая почва</WetRichSoil.label>
+  <WetRichSoil.tools.0.label>грязь</WetRichSoil.tools.0.label>
+  <FloodedRichSoil.label>затопленная богатая почва</FloodedRichSoil.label>
+  <FloodedRichSoil.tools.0.label>вода</FloodedRichSoil.tools.0.label>
+  <FrozenFloodedRichSoil.label>замерзшая затопленная почва</FrozenFloodedRichSoil.label>
+</LanguageData>

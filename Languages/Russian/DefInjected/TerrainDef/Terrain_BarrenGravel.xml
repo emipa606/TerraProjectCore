@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParchedBarrenGravel.label>пересохший бесплодный гравий</ParchedBarrenGravel.label>
+  <ParchedBarrenGravel.tools.0.label>гравий</ParchedBarrenGravel.tools.0.label>
+  <DryBarrenGravel.label>пересохший бесплодный гравий</DryBarrenGravel.label>
+  <DryBarrenGravel.tools.0.label>гравий</DryBarrenGravel.tools.0.label>
+  <NormalBarrenGravel.label>бесплодный гравий</NormalBarrenGravel.label>
+  <NormalBarrenGravel.tools.0.label>гравий</NormalBarrenGravel.tools.0.label>
+  <WetBarrenGravel.label>влажный бесплодный гравий</WetBarrenGravel.label>
+  <WetBarrenGravel.tools.0.label>гравий</WetBarrenGravel.tools.0.label>
+  <FloodedBarrenGravel.label>затопленный бесплодный гравий</FloodedBarrenGravel.label>
+  <FloodedBarrenGravel.tools.0.label>вода</FloodedBarrenGravel.tools.0.label>
+  <FrozenFloodedBarrenGravel.label>замерзший затопленный гравий</FrozenFloodedBarrenGravel.label>
+</LanguageData>

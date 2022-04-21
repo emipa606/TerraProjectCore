@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FillerTerrain.label>заполняющий рельеф</FillerTerrain.label>
+  <FillerFloodedTerrain.label>заливная затопленная местность</FillerFloodedTerrain.label>
+  <FillerStone.label>заполняющий камень</FillerStone.label>
+  <FillerWater.label>заполняющая вода</FillerWater.label>
+</LanguageData>

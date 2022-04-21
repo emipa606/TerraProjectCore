@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParchedSoilPlown.label>пересохшая почва (пашня)</ParchedSoilPlown.label>
+  <ParchedSoilPlown.tools.0.label>грязь</ParchedSoilPlown.tools.0.label>
+  <DrySoilPlown.label>сухая почва (пашня)</DrySoilPlown.label>
+  <DrySoilPlown.tools.0.label>грязь</DrySoilPlown.tools.0.label>
+  <NormalSoilPlown.label>почва (пашня)</NormalSoilPlown.label>
+  <NormalSoilPlown.tools.0.label>грязь</NormalSoilPlown.tools.0.label>
+  <WetSoilPlown.label>влажная почва (пашня)</WetSoilPlown.label>
+  <WetSoilPlown.tools.0.label>грязь</WetSoilPlown.tools.0.label>
+</LanguageData>

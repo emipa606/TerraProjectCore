@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParchedSoil.label>пересохшая почва</ParchedSoil.label>
+  <ParchedSoil.tools.0.label>грязь</ParchedSoil.tools.0.label>
+  <DrySoil.label>сухая почва</DrySoil.label>
+  <DrySoil.tools.0.label>грязь</DrySoil.tools.0.label>
+  <NormalSoil.label>почва</NormalSoil.label>
+  <NormalSoil.tools.0.label>грязь</NormalSoil.tools.0.label>
+  <WetSoil.label>влажная почва</WetSoil.label>
+  <WetSoil.tools.0.label>mud</WetSoil.tools.0.label>
+  <FloodedSoil.label>затопленная почва</FloodedSoil.label>
+  <FloodedSoil.tools.0.label>вода</FloodedSoil.tools.0.label>
+  <FrozenFloodedSoil.label>замерзшая затопленная почва</FrozenFloodedSoil.label>
+</LanguageData>

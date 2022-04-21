@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Ice (normal) -->
+  <IceDeep.label>лёд (глубокая вода)</IceDeep.label>
+  <IceSloping.label>лёд (наклонная вода)</IceSloping.label>
+  <IceChestDeep.label>лёд (вода глубиной по грудь)</IceChestDeep.label>
+  <IceHipDeep.label>лёд (вода глубиной до бедра)</IceHipDeep.label>
+  <IceShallow.label>лёд (мелководье)</IceShallow.label>
+  <!-- Ice (marsh) -->
+  <IceMarshDeep.label>лёд (глубокое болото)</IceMarshDeep.label>
+  <IceMarshSloping.label>лёд (наклонное болото)</IceMarshSloping.label>
+  <IceMarshChestDeep.label>лёд (болото глубиной по грудь)</IceMarshChestDeep.label>
+  <IceMarshHipDeep.label>лёд (болото глубиной до бедра)</IceMarshHipDeep.label>
+  <IceMarshShallow.label>лёд (мелководное болото)</IceMarshShallow.label>
+  <!-- Ice (ocean) -->
+  <IceOceanDeep.label>ice (deep ocean water)</IceOceanDeep.label>
+  <IceOceanSloping.label>ice (sloping ocean water)</IceOceanSloping.label>
+  <IceOceanChestDeep.label>ice (chest-deep ocean water)</IceOceanChestDeep.label>
+  <IceOceanHipDeep.label>ice (hip-deep ocean water)</IceOceanHipDeep.label>
+  <IceOceanShallow.label>ice (shallow ocean water)</IceOceanShallow.label>
+  <!-- Ice (moving) -->
+  <IceMovingDeep.label>ice (deep moving water)</IceMovingDeep.label>
+  <IceMovingSloping.label>ice (sloping moving water)</IceMovingSloping.label>
+  <IceMovingChestDeep.label>ice (chest-deep moving water)</IceMovingChestDeep.label>
+  <IceMovingHipDeep.label>ice (hip-deep moving water)</IceMovingHipDeep.label>
+  <IceMovingShallow.label>ice (shallow moving water)</IceMovingShallow.label>
+</LanguageData>

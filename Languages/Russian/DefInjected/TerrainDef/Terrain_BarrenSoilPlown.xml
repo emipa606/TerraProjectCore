@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParchedBarrenSoilPlown.label>иссушенная бесплодная почва (пашня)</ParchedBarrenSoilPlown.label>
+  <ParchedBarrenSoilPlown.tools.0.label>грязь</ParchedBarrenSoilPlown.tools.0.label>
+  <DryBarrenSoilPlown.label>сухая бесплодная почва (пашня)</DryBarrenSoilPlown.label>
+  <DryBarrenSoilPlown.tools.0.label>грязь</DryBarrenSoilPlown.tools.0.label>
+  <NormalBarrenSoilPlown.label>бесплодная почва (пашня)</NormalBarrenSoilPlown.label>
+  <NormalBarrenSoilPlown.tools.0.label>грязь</NormalBarrenSoilPlown.tools.0.label>
+  <WetBarrenSoilPlown.label>влажная бесплодная почва (пашня)</WetBarrenSoilPlown.label>
+  <WetBarrenSoilPlown.tools.0.label>грязь</WetBarrenSoilPlown.tools.0.label>
+</LanguageData>

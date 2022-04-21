@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParchedSandPlown.label>песок пустыни (пересохший и вспаханный)</ParchedSandPlown.label>
+  <ParchedSandPlown.tools.0.label>песок</ParchedSandPlown.tools.0.label>
+  <DrySandPlown.label>песок пустыни (пашня)</DrySandPlown.label>
+  <DrySandPlown.tools.0.label>песок</DrySandPlown.tools.0.label>
+  <NormalSandPlown.label>песок (пашня)</NormalSandPlown.label>
+  <NormalSandPlown.tools.0.label>песок</NormalSandPlown.tools.0.label>
+  <WetSandPlown.label>влажный песок (пашня)</WetSandPlown.label>
+  <WetSandPlown.tools.0.label>песок</WetSandPlown.tools.0.label>
+</LanguageData>

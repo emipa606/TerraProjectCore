@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParchedFertileGravel.label>пересохший плодородный гравий</ParchedFertileGravel.label>
+  <ParchedFertileGravel.tools.0.label>гравий</ParchedFertileGravel.tools.0.label>
+  <DryFertileGravel.label>сухой плодородный гравий</DryFertileGravel.label>
+  <DryFertileGravel.tools.0.label>гравий</DryFertileGravel.tools.0.label>
+  <NormalFertileGravel.label>плодородный гравий</NormalFertileGravel.label>
+  <NormalFertileGravel.tools.0.label>гравий</NormalFertileGravel.tools.0.label>
+  <WetFertileGravel.label>влажный плодородный гравий</WetFertileGravel.label>
+  <WetFertileGravel.tools.0.label>гравий</WetFertileGravel.tools.0.label>
+  <FloodedFertileGravel.label>затопленный плодородный гравий</FloodedFertileGravel.label>
+  <FloodedFertileGravel.tools.0.label>вода</FloodedFertileGravel.tools.0.label>
+  <FrozenFloodedFertileGravel.label>замерзший затопленный гравий</FrozenFloodedFertileGravel.label>
+</LanguageData>

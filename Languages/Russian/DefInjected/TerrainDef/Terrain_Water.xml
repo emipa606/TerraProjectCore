@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Water deep (def in core) -->
+  <WaterSloping.label>наклонная вода</WaterSloping.label>
+  <WaterChestDeep.label>вода глубиной по грудь</WaterChestDeep.label>
+  <WaterHipDeep.label>вода глубиной до бедра</WaterHipDeep.label>
+  <!-- Water (marsh) -->
+  <WaterMarshDeep.label>глубокое болото</WaterMarshDeep.label>
+  <WaterMarshSloping.label>болото с уклоном</WaterMarshSloping.label>
+  <WaterMarshChestDeep.label>болото глубиной по грудь</WaterMarshChestDeep.label>
+  <WaterMarshHipDeep.label>болото глубиной до бедра</WaterMarshHipDeep.label>
+  <WaterMarshShallow.label>мелководное болото</WaterMarshShallow.label>
+  <!-- Water ocean deep (def in core) -->
+  <WaterOceanSloping.label>наклонная океаническая вода</WaterOceanSloping.label>
+  <WaterOceanChestDeep.label>океаническая вода глубиной по грудь</WaterOceanChestDeep.label>
+  <WaterOceanHipDeep.label>океаническая вода глубиной до бедра</WaterOceanHipDeep.label>
+  <!-- Water (moving) -->
+  <WaterMovingDeep.label>глубокая движущаяся вода</WaterMovingDeep.label>
+  <WaterMovingSloping.label>наклонная движущаяся вода</WaterMovingSloping.label>
+  <!-- Water moving chest-deep (def in core) -->
+  <WaterMovingHipDeep.label>движущаяся вода глубиной до бедра</WaterMovingHipDeep.label>
+</LanguageData>

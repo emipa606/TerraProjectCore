@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParchedGravel.label>пересохший гравий</ParchedGravel.label>
+  <ParchedGravel.tools.0.label>гравий</ParchedGravel.tools.0.label>
+  <DryGravel.label>сухой гравий</DryGravel.label>
+  <DryGravel.tools.0.label>гравий</DryGravel.tools.0.label>
+  <NormalGravel.label>гравий</NormalGravel.label>
+  <NormalGravel.tools.0.label>гравий</NormalGravel.tools.0.label>
+  <WetGravel.label>влажный гравий</WetGravel.label>
+  <WetGravel.tools.0.label>гравий</WetGravel.tools.0.label>
+  <FloodedGravel.label>затопленный гравий</FloodedGravel.label>
+  <FloodedGravel.tools.0.label>вода</FloodedGravel.tools.0.label>
+  <FrozenFloodedGravel.label>замерзший затопленный гравий</FrozenFloodedGravel.label>
+</LanguageData>

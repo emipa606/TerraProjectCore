@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParchedLateritePlown.label>пересохший латерит (пашня)</ParchedLateritePlown.label>
+  <ParchedLateritePlown.tools.0.label>песок</ParchedLateritePlown.tools.0.label>
+  <DryLateritePlown.label>сухой латерит (пахота)</DryLateritePlown.label>
+  <DryLateritePlown.tools.0.label>песок</DryLateritePlown.tools.0.label>
+  <NormalLateritePlown.label>латерит (пашня)</NormalLateritePlown.label>
+  <NormalLateritePlown.tools.0.label>песок</NormalLateritePlown.tools.0.label>
+  <WetLateritePlown.label>влажный латерит (пашня)</WetLateritePlown.label>
+  <WetLateritePlown.tools.0.label>песок</WetLateritePlown.tools.0.label>
+</LanguageData>

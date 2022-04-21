@@ -14,8 +14,6 @@ Many of those features are now available in other mods, so this mod is just focu
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
-# New 1.0 version here (currently public beta): https://steamcommunity.com/sharedfiles/filedetails/?id=1598637926
-
 
 # Renamed from Terra Core/Framework
 
@@ -82,7 +80,7 @@ A dormant volcano reaching out of the water. A small costal area is buildable, t
 An archipelago of many skerries and smaller islands. There is not really much going on here. A few islands have some soil and a decent vegetation, other are just composed of sand or ice in the winter. Mostly small animals and birds live here to fit the cramped environment.
 
 **Atoll**
-An often ring-shaped coral island or group of islands that onces was a volcano which has eroded over time. The form can vary much, from one round island to many small that are connected via shallow banks. Mostly tropical plants and small
+An often ring-shaped coral island or group of islands that onces was a volcano which has eroded over time. The form can vary much, from one round island to many small that are connected via shallow banks. Mostly tropical plants and small animals live here to fit the environment.
 
 ![Image](https://i.imgur.com/PwoNOj4.png)
 

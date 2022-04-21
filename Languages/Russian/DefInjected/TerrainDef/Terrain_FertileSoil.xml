@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParchedFertileSoil.label>пересохшая плодородная почва</ParchedFertileSoil.label>
+  <ParchedFertileSoil.tools.0.label>грязь</ParchedFertileSoil.tools.0.label>
+  <DryFertileSoil.label>сухая плодородная почва</DryFertileSoil.label>
+  <DryFertileSoil.tools.0.label>грязь</DryFertileSoil.tools.0.label>
+  <NormalFertileSoil.label>плодородная почва</NormalFertileSoil.label>
+  <NormalFertileSoil.tools.0.label>грязь</NormalFertileSoil.tools.0.label>
+  <WetFertileSoil.label>влажная плодородная почва</WetFertileSoil.label>
+  <WetFertileSoil.tools.0.label>грязь</WetFertileSoil.tools.0.label>
+  <FloodedFertileSoil.label>затопленная плодородная почва</FloodedFertileSoil.label>
+  <FloodedFertileSoil.tools.0.label>вода</FloodedFertileSoil.tools.0.label>
+  <FrozenFloodedFertileSoil.label>замерзшая затопленная почва</FrozenFloodedFertileSoil.label>
+</LanguageData>

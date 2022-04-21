@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParchedFertileSoilPlown.label>пересохшая плодородная почва (пашня)</ParchedFertileSoilPlown.label>
+  <ParchedFertileSoilPlown.tools.0.label>грязь</ParchedFertileSoilPlown.tools.0.label>
+  <DryFertileSoilPlown.label>сухая плодородная почва (пахота)</DryFertileSoilPlown.label>
+  <DryFertileSoilPlown.tools.0.label>грязь</DryFertileSoilPlown.tools.0.label>
+  <NormalFertileSoilPlown.label>плодородная почва (пашня)</NormalFertileSoilPlown.label>
+  <NormalFertileSoilPlown.tools.0.label>грязь</NormalFertileSoilPlown.tools.0.label>
+  <WetFertileSoilPlown.label>влажная плодородная почва (пашня)</WetFertileSoilPlown.label>
+  <WetFertileSoilPlown.tools.0.label>грязь</WetFertileSoilPlown.tools.0.label>
+</LanguageData>

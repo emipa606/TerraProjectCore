@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ParchedRichSoilPlown.label>пересохшая богатая почва (пашня)</ParchedRichSoilPlown.label>
+  <ParchedRichSoilPlown.tools.0.label>грязь</ParchedRichSoilPlown.tools.0.label>
+  <DryRichSoilPlown.label>сухая богатая почва (пашня)</DryRichSoilPlown.label>
+  <DryRichSoilPlown.tools.0.label>грязь</DryRichSoilPlown.tools.0.label>
+  <NormalRichSoilPlown.label>богатая почва (пашня)</NormalRichSoilPlown.label>
+  <NormalRichSoilPlown.tools.0.label>грязь</NormalRichSoilPlown.tools.0.label>
+  <WetRichSoilPlown.label>влажная богатая почва (вспашка)</WetRichSoilPlown.label>
+  <WetRichSoilPlown.tools.0.label>грязь</WetRichSoilPlown.tools.0.label>
+</LanguageData>

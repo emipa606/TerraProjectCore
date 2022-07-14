@@ -3,13 +3,10 @@ using Verse;
 
 namespace TerraCore;
 
-// Token: 0x0200017B RID: 379
 public static class BiomeWorkerUtility
 {
-    // Token: 0x0400042F RID: 1071
     private static readonly float fixedThresholdVarianceTemperature = 3f;
 
-    // Token: 0x04000430 RID: 1072
     private static readonly SimpleCurve thresholdVarianceCurveRainfall = new SimpleCurve
     {
         {
@@ -30,10 +27,8 @@ public static class BiomeWorkerUtility
         }
     };
 
-    // Token: 0x04000431 RID: 1073
     private static readonly float fixedThresholdVarianceSwampiness = 0.08f;
 
-    // Token: 0x04000432 RID: 1074
     private static readonly SimpleCurve thresholdVarianceCurveElevation = new SimpleCurve
     {
         {
@@ -54,7 +49,6 @@ public static class BiomeWorkerUtility
         }
     };
 
-    // Token: 0x0600066C RID: 1644 RVA: 0x00021ED4 File Offset: 0x000200D4
     private static float ThresholdVarianceForType(BWScoreFactorType type, float threshold)
     {
         float result;
@@ -82,27 +76,23 @@ public static class BiomeWorkerUtility
         return result;
     }
 
-    // Token: 0x0600066D RID: 1645 RVA: 0x00021F68 File Offset: 0x00020168
     public static float ScoreFactorLow(BWScoreFactorType type, float value, float threshold)
     {
         var num = ThresholdVarianceForType(type, threshold);
         return Mathf.Clamp01((value - threshold - num) / num / 2f);
     }
 
-    // Token: 0x0600066E RID: 1646 RVA: 0x00021F94 File Offset: 0x00020194
     public static float ScoreFactorHigh(BWScoreFactorType type, float value, float threshold)
     {
         var num = ThresholdVarianceForType(type, threshold);
         return Mathf.Clamp01((threshold + num - value) / num / 2f);
     }
 
-    // Token: 0x0600066F RID: 1647 RVA: 0x00021FC0 File Offset: 0x000201C0
     public static float ScoreFactorLow(float value, float low, float high)
     {
         return Mathf.Clamp01((value - low) / (high - low));
     }
 
-    // Token: 0x06000670 RID: 1648 RVA: 0x00021FE0 File Offset: 0x000201E0
     public static float ScoreFactorHigh(float value, float low, float high)
     {
         return Mathf.Clamp01((high - value) / (high - low));

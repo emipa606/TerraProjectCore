@@ -3,10 +3,8 @@ using RimWorld.Planet;
 
 namespace TerraCore;
 
-// Token: 0x020000EA RID: 234
 public class BiomeWorker_TemperateSwampDeep : BiomeWorker
 {
-    // Token: 0x060003A1 RID: 929 RVA: 0x00012AEC File Offset: 0x00010CEC
     public override float GetScore(Tile tile, int tileID)
     {
         var waterCovered = tile.WaterCovered;

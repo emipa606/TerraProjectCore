@@ -33,12 +33,7 @@ public class BiomeWorkerSpecial_Atoll : BiomeWorkerSpecial
             return false;
         }
 
-        if (tile.temperature < 20f)
-        {
-            return false;
-        }
-
-        return true;
+        return !(tile.temperature < 20f);
     }
 
     public override void PostGeneration(int tileID)

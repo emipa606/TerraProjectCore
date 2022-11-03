@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Animals</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Aerofleet"]/race/wildBiomes</xpath>
+          <value>
+            <DesertHighPlains>0.05</DesertHighPlains>
+            <FrozenLake>0.2</FrozenLake>
+            <TemperateMeadow>0.4</TemperateMeadow>
+            <SpikeMountains>0.3</SpikeMountains>
+            <TidalFlats>0.5</TidalFlats>
+            <Savanna>0.2</Savanna>
+            <Oasis>0.2</Oasis>
+            <Archipelago>0.5</Archipelago>
+            <VolcanicIsland>0.5</VolcanicIsland>
+            <TundraSkerries>0.5</TundraSkerries>
+            <PackIce>0.3</PackIce>
+            <Atoll>0.5</Atoll>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_AnimusVox"]/race/wildBiomes</xpath>
+          <value>
+            <FrozenLake>0.02</FrozenLake>
+            <ColdBogDeep>0.02</ColdBogDeep>
+            <TemperateMeadow>0.01</TemperateMeadow>
+            <SpikeMountains>0.03</SpikeMountains>
+            <TemperateSwampDeep>0.03</TemperateSwampDeep>
+            <TropicalSwampDeep>0.03</TropicalSwampDeep>
+            <Savanna>0.01</Savanna>
+            <Archipelago>0.01</Archipelago>
+            <VolcanicIsland>0.02</VolcanicIsland>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_ArcticLion"]/race/wildBiomes</xpath>
+          <value>
+            <FrozenLake>0.06</FrozenLake>
+            <ColdBogDeep>0.04</ColdBogDeep>
+            <TundraSkerries>0.01</TundraSkerries>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Barbslinger"]/race/wildBiomes</xpath>
+          <value>
+            <Savanna>0.1</Savanna>
+            <Oasis>0.3</Oasis>
+            <CaveOasis>0.1</CaveOasis>
+            <TunnelworldCave>0.1</TunnelworldCave>
+            <InfestedMountains>0.1</InfestedMountains>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_BedBug"]/race/wildBiomes</xpath>
+          <value>
+            <FrozenLake>0.03</FrozenLake>
+            <ColdBogDeep>0.1</ColdBogDeep>
+            <TemperateMeadow>0.02</TemperateMeadow>
+            <SpikeMountains>0.03</SpikeMountains>
+            <TidalFlats>0.02</TidalFlats>
+            <TemperateSwampDeep>0.1</TemperateSwampDeep>
+            <TropicalSwampDeep>0.1</TropicalSwampDeep>
+            <Savanna>0.01</Savanna>
+            <VolcanicIsland>0.02</VolcanicIsland>
+            <CaveOasis>0.04</CaveOasis>
+            <TunnelworldCave>0.04</TunnelworldCave>
+            <CaveEntrance>0.03</CaveEntrance>
+            <InfestedMountains>0.02</InfestedMountains>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Blizzarisk"]/race/wildBiomes</xpath>
+          <value>
+            <DesertHighPlains>0.02</DesertHighPlains>
+            <FrozenLake>0.04</FrozenLake>
+            <ColdBogDeep>0.07</ColdBogDeep>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_BoulderMit"]/race/wildBiomes</xpath>
+          <value>
+            <DesertHighPlains>0.01</DesertHighPlains>
+            <FrozenLake>0.03</FrozenLake>
+            <TemperateMeadow>0.03</TemperateMeadow>
+            <TidalFlats>0.05</TidalFlats>
+            <Savanna>0.02</Savanna>
+            <Archipelago>0.02</Archipelago>
+            <VolcanicIsland>0.01</VolcanicIsland>
+            <TundraSkerries>0.02</TundraSkerries>
+            <CaveOasis>0.05</CaveOasis>
+            <TunnelworldCave>0.05</TunnelworldCave>
+            <CaveEntrance>0.05</CaveEntrance>
+            <InfestedMountains>0.03</InfestedMountains>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Bumbledrone"]/race/wildBiomes</xpath>
+          <value>
+            <TemperateMeadow>0.07</TemperateMeadow>
+            <SpikeMountains>0.05</SpikeMountains>
+            <TidalFlats>0.02</TidalFlats>
+            <TemperateSwampDeep>0.07</TemperateSwampDeep>
+            <TropicalSwampDeep>0.07</TropicalSwampDeep>
+            <Savanna>0.07</Savanna>
+            <Oasis>0.07</Oasis>
+            <Archipelago>0.05</Archipelago>
+            <VolcanicIsland>0.03</VolcanicIsland>
+            <Atoll>0.05</Atoll>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Cactipine"]/race/wildBiomes</xpath>
+          <value>
+            <Savanna>0.3</Savanna>
+            <Oasis>0.5</Oasis>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Dunealisk"]/race/wildBiomes</xpath>
+          <value>
+            <Oasis>0.1</Oasis>
+            <Atoll>0.07</Atoll>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Feralisk"]/race/wildBiomes</xpath>
+          <value>
+            <SpikeMountains>0.05</SpikeMountains>
+            <TemperateSwampDeep>0.15</TemperateSwampDeep>
+            <TropicalSwampDeep>0.2</TropicalSwampDeep>
+            <Archipelago>0.07</Archipelago>
+            <VolcanicIsland>0.15</VolcanicIsland>
+            <InfestedMountains>0.15</InfestedMountains>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Frostmite"]/race/wildBiomes</xpath>
+          <value>
+            <FrozenLake>0.05</FrozenLake>
+            <ColdBogDeep>0.02</ColdBogDeep>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Groundrunner"]/race/wildBiomes</xpath>
+          <value>
+            <FrozenLake>0.2</FrozenLake>
+            <ColdBogDeep>0.07</ColdBogDeep>
+            <TemperateMeadow>0.15</TemperateMeadow>
+            <VolcanicIsland>0.07</VolcanicIsland>
+            <CaveOasis>0.2</CaveOasis>
+            <TunnelworldCave>0.2</TunnelworldCave>
+            <CaveEntrance>0.15</CaveEntrance>
+            <InfestedMountains>0.07</InfestedMountains>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Lockjaw"]/race/wildBiomes</xpath>
+          <value>
+            <TemperateSwampDeep>0.07</TemperateSwampDeep>
+            <TropicalSwampDeep>0.2</TropicalSwampDeep>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_MeadowAve"]/race/wildBiomes</xpath>
+          <value>
+            <TemperateMeadow>0.6</TemperateMeadow>
+            <SpikeMountains>0.3</SpikeMountains>
+            <TidalFlats>0.6</TidalFlats>
+            <Savanna>0.04</Savanna>
+            <Oasis>0.1</Oasis>
+            <Archipelago>0.5</Archipelago>
+            <VolcanicIsland>0.3</VolcanicIsland>
+            <Atoll>0.3</Atoll>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_MegaLouse"]/race/wildBiomes</xpath>
+          <value>
+            <TemperateMeadow>0.03</TemperateMeadow>
+            <SpikeMountains>0.03</SpikeMountains>
+            <Savanna>0.03</Savanna>
+            <Oasis>0.03</Oasis>
+            <CaveOasis>0.1</CaveOasis>
+            <TunnelworldCave>0.1</TunnelworldCave>
+            <CaveEntrance>0.05</CaveEntrance>
+            <InfestedMountains>0.05</InfestedMountains>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Needlepost"]/race/wildBiomes</xpath>
+          <value>
+            <Savanna>0.04</Savanna>
+            <Oasis>0.07</Oasis>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Needleroll"]/race/wildBiomes</xpath>
+          <value>
+            <Oasis>0.8</Oasis>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Nightling"]/race/wildBiomes</xpath>
+          <value>
+            <FrozenLake>0.1</FrozenLake>
+            <ColdBogDeep>0.04</ColdBogDeep>
+            <TemperateMeadow>0.04</TemperateMeadow>
+            <SpikeMountains>0.1</SpikeMountains>
+            <TemperateSwampDeep>0.06</TemperateSwampDeep>
+            <TropicalSwampDeep>0.06</TropicalSwampDeep>
+            <Savanna>0.04</Savanna>
+            <Oasis>0.05</Oasis>
+            <CaveOasis>0.1</CaveOasis>
+            <TunnelworldCave>0.15</TunnelworldCave>
+            <CaveEntrance>0.07</CaveEntrance>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_PebbleMit"]/race/wildBiomes</xpath>
+          <value>
+            <DesertHighPlains>0.05</DesertHighPlains>
+            <FrozenLake>0.05</FrozenLake>
+            <ColdBogDeep>0.05</ColdBogDeep>
+            <TemperateMeadow>0.05</TemperateMeadow>
+            <SpikeMountains>0.05</SpikeMountains>
+            <TemperateSwampDeep>0.05</TemperateSwampDeep>
+            <TropicalSwampDeep>0.03</TropicalSwampDeep>
+            <Savanna>0.02</Savanna>
+            <Archipelago>0.01</Archipelago>
+            <VolcanicIsland>0.05</VolcanicIsland>
+            <CaveOasis>0.3</CaveOasis>
+            <TunnelworldCave>0.3</TunnelworldCave>
+            <CaveEntrance>0.1</CaveEntrance>
+            <InfestedMountains>0.2</InfestedMountains>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_RaptorShrimp"]/race/wildBiomes</xpath>
+          <value>
+            <FrozenLake>0.04</FrozenLake>
+            <ColdBogDeep>0.05</ColdBogDeep>
+            <SpikeMountains>0.04</SpikeMountains>
+            <TidalFlats>0.04</TidalFlats>
+            <TemperateSwampDeep>0.05</TemperateSwampDeep>
+            <TropicalSwampDeep>0.05</TropicalSwampDeep>
+            <Archipelago>0.04</Archipelago>
+            <VolcanicIsland>0.03</VolcanicIsland>
+            <TundraSkerries>0.03</TundraSkerries>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Slurrypede"]/race/wildBiomes</xpath>
+          <value>
+            <DesertHighPlains>0.01</DesertHighPlains>
+            <FrozenLake>0.01</FrozenLake>
+            <TemperateMeadow>0.01</TemperateMeadow>
+            <SpikeMountains>0.01</SpikeMountains>
+            <Savanna>0.01</Savanna>
+            <Oasis>0.01</Oasis>
+            <CaveOasis>0.01</CaveOasis>
+            <TunnelworldCave>0.01</TunnelworldCave>
+            <CaveEntrance>0.01</CaveEntrance>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_TetraSlug"]/race/wildBiomes</xpath>
+          <value>
+            <DesertHighPlains>0.001</DesertHighPlains>
+            <FrozenLake>0.001</FrozenLake>
+            <TemperateMeadow>0.001</TemperateMeadow>
+            <SpikeMountains>0.001</SpikeMountains>
+            <Savanna>0.001</Savanna>
+            <Oasis>0.001</Oasis>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Wildpawn"]/race/wildBiomes</xpath>
+          <value>
+            <FrozenLake>0.07</FrozenLake>
+            <TemperateMeadow>0.05</TemperateMeadow>
+            <SpikeMountains>0.05</SpikeMountains>
+            <Savanna>0.05</Savanna>
+            <CaveOasis>0.03</CaveOasis>
+            <TunnelworldCave>0.03</TunnelworldCave>
+            <CaveEntrance>0.02</CaveEntrance>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="AA_Wildpod"]/race/wildBiomes</xpath>
+          <value>
+            <FrozenLake>0.1</FrozenLake>
+            <ColdBogDeep>0.07</ColdBogDeep>
+            <TemperateMeadow>0.04</TemperateMeadow>
+            <SpikeMountains>0.07</SpikeMountains>
+            <TemperateSwampDeep>0.07</TemperateSwampDeep>
+            <TropicalSwampDeep>0.07</TropicalSwampDeep>
+            <Savanna>0.04</Savanna>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

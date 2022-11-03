@@ -41,12 +41,7 @@ public class BiomeWorkerSpecial_SpikeMountains : BiomeWorkerSpecial
             return false;
         }
 
-        if (tile.swampiness >= 0.6f)
-        {
-            return false;
-        }
-
-        return true;
+        return !(tile.swampiness >= 0.6f);
     }
 
     public override void PostGeneration(int tileID)

@@ -32,12 +32,7 @@ public class BiomeWorkerSpecial_InfestedMountains : BiomeWorkerSpecial
             return false;
         }
 
-        if (tile.rainfall < 600f)
-        {
-            return false;
-        }
-
-        return true;
+        return !(tile.rainfall < 600f);
     }
 
     public override void PostGeneration(int tileID)

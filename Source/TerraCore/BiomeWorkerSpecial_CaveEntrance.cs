@@ -26,12 +26,7 @@ public class BiomeWorkerSpecial_CaveEntrance : BiomeWorkerSpecial
             return false;
         }
 
-        if (tile.hilliness == Hilliness.Flat)
-        {
-            return false;
-        }
-
-        return true;
+        return tile.hilliness != Hilliness.Flat;
     }
 
     public override void PostGeneration(int tileID)

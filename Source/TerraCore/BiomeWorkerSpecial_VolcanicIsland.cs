@@ -35,12 +35,7 @@ public class BiomeWorkerSpecial_VolcanicIsland : BiomeWorkerSpecial
             return false;
         }
 
-        if (tile.temperature is < 0f or >= 25f)
-        {
-            return false;
-        }
-
-        return true;
+        return tile.temperature is >= 0f and < 25f;
     }
 
     public override void PostGeneration(int tileID)

@@ -29,24 +29,17 @@ public class BiomeWorkerSpecial_PackIce : BiomeWorkerSpecial
 
     public override bool PreRequirements(Tile tile)
     {
-        bool result;
         if (!tile.WaterCovered || tile.elevation > -100f)
         {
-            result = false;
-        }
-        else
-        {
-            if (tile.temperature > -5f)
-            {
-                result = false;
-            }
-            else
-            {
-                result = !(BiomeWorker_IceSheet.PermaIceScore(tile) > 23f);
-            }
+            return false;
         }
 
-        return result;
+        if (tile.temperature > -5f)
+        {
+            return false;
+        }
+
+        return !(BiomeWorker_IceSheet.PermaIceScore(tile) > 23f);
     }
 
     public override void PostGeneration(int tileID)

@@ -9,6 +9,8 @@ This mod is based on the B19 version but with most of the biomes from the 1.0 ve
 The extra functionallity added in 1.0 is purposly left out as it was never fully completed. 
 Many of those features are now available in other mods, so this mod is just focused on the map-generation.
 
+- Russian translation added, thanks to Dmitry6!
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	
@@ -92,5 +94,6 @@ An often ring-shaped coral island or group of islands that onces was a volcano w
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 

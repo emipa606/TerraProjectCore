@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Generate abstract grids -->
+  <GenStepDef>
+    <defName>ElevationFertilityPost</defName>
+    <order>11</order>
+    <genStep Class="TerraCore.GenStep_ElevationFertilityPost" />
+  </GenStepDef>
+  <GenStepDef>
+    <defName>BetterCaves</defName>
+    <order>13</order>
+    <genStep Class="TerraCore.GenStep_BetterCaves" />
+  </GenStepDef>
+  <!-- Generate basic rocks and terrain from grid -->
+  <GenStepDef>
+    <defName>CaveRockChunks</defName>
+    <order>271</order>
+    <genStep Class="TerraCore.GenStep_CaveRockChunks" />
+  </GenStepDef>
+</Defs>

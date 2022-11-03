@@ -22,38 +22,27 @@ public class BiomeWorkerSpecial_DesertDunes : BiomeWorkerSpecial
     public override bool PreRequirements(Tile tile)
     {
         var waterCovered = tile.WaterCovered;
-        bool result;
         if (waterCovered)
         {
-            result = false;
-        }
-        else
-        {
-            if (tile.hilliness != Hilliness.Flat)
-            {
-                result = false;
-            }
-            else
-            {
-                if (tile.temperature < 15f)
-                {
-                    result = false;
-                }
-                else
-                {
-                    if (tile.rainfall > 600f)
-                    {
-                        result = false;
-                    }
-                    else
-                    {
-                        result = !(tile.swampiness >= 0.5f);
-                    }
-                }
-            }
+            return false;
         }
 
-        return result;
+        if (tile.hilliness != Hilliness.Flat)
+        {
+            return false;
+        }
+
+        if (tile.temperature < 15f)
+        {
+            return false;
+        }
+
+        if (tile.rainfall > 600f)
+        {
+            return false;
+        }
+
+        return !(tile.swampiness >= 0.5f);
     }
 
     public override void PostGeneration(int tileID)

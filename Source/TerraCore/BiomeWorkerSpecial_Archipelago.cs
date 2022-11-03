@@ -33,12 +33,7 @@ public class BiomeWorkerSpecial_Archipelago : BiomeWorkerSpecial
             return false;
         }
 
-        if (tile.temperature is < -10f or >= 20f)
-        {
-            return false;
-        }
-
-        return true;
+        return tile.temperature is >= -10f and < 20f;
     }
 
     public override void PostGeneration(int tileID)

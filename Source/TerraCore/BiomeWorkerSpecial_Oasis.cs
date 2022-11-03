@@ -41,12 +41,7 @@ public class BiomeWorkerSpecial_Oasis : BiomeWorkerSpecial
             return false;
         }
 
-        if (tile.swampiness >= 0.5f)
-        {
-            return false;
-        }
-
-        return true;
+        return !(tile.swampiness >= 0.5f);
     }
 
     public override void PostGeneration(int tileID)

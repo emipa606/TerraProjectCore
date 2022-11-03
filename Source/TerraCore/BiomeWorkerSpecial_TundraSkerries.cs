@@ -39,12 +39,7 @@ public class BiomeWorkerSpecial_TundraSkerries : BiomeWorkerSpecial
             return false;
         }
 
-        if (BiomeWorker_IceSheet.PermaIceScore(tile) > 20f)
-        {
-            return false;
-        }
-
-        return true;
+        return !(BiomeWorker_IceSheet.PermaIceScore(tile) > 20f);
     }
 
     public override void PostGeneration(int tileID)

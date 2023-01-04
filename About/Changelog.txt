@@ -1,5 +1,8 @@
 # Changelog for TerraProjectCore
 
+1.4.2 - Added Vanilla fishing support for cave oasis. (Cold biome fishing def)
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 

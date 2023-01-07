@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/BiomeDef[defName="Savanna"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs</xpath>
+      <value>
+        <BiomeDef ParentName="SavannaBase">
+          <defName>TerraSavanna</defName>
+          <label>low savanna</label>
+        </BiomeDef>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs</xpath>
+      <value>
+        <BiomeDef ParentName="SavannaBase">
+          <defName>Savanna</defName>
+        </BiomeDef>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

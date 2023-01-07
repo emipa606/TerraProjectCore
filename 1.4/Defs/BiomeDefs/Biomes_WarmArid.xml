@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <BiomeDef>
-    <defName>Savanna</defName>
+  <BiomeDef Abstract="True" Name="SavannaBase">
     <label>savanna</label>
     <description>A mildly dry region, but not dry enough to become an arid shrubland. The plains are covered with a thick grass layer. Bushes and trees are widely spaced to maintain an open canopy but enough to give this area a light foresty though. Despite the good abount of plants the soil is mostly dry and animals roam the area on the search for food and water.</description>
     <workerClass>TerraCore.BiomeWorker_Savanna</workerClass>

@@ -3,11 +3,45 @@
   <Operation Class="PatchOperationConditional">
     <xpath>/Defs/ThingDef[@Name="VCEF_RawFishBase"]</xpath>
     <success>Always</success>
-    <match Class="PatchOperationAdd">
-      <xpath>/Defs/VCE_Fishing.BiomeTempDef[defName="VCEF_BiomeCold"]/biomes</xpath>
-      <value>
-        <li>CaveOasis</li>
-      </value>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/VCE_Fishing.BiomeTempDef[defName="VCEF_BiomeCold"]/biomes</xpath>
+          <value>
+            <li>CaveOasis</li>
+            <li>TunnelworldCave</li>
+            <li>CaveEntrance</li>
+            <li>InfestedMountains</li>
+            <li>DeepRavine</li>
+            <li>TundraSkerries</li>
+            <li>PackIce</li>
+            <li>FrozenLake</li>
+            <li>ColdBogDeep</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/VCE_Fishing.BiomeTempDef[defName="VCEF_BiomeWarm"]/biomes</xpath>
+          <value>
+            <li>Archipelago</li>
+            <li>VolcanicIsland</li>
+            <li>Atoll</li>
+            <li>TropicalSwampDeep</li>
+            <li>TemperateMeadow</li>
+            <li>SpikeMountains</li>
+            <li>TidalFlats</li>
+            <li>TemperateSwampDeep</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/VCE_Fishing.BiomeTempDef[defName="VCEF_BiomeHot"]/biomes</xpath>
+          <value>
+            <li>DesertDunes</li>
+            <li>Oasis</li>
+            <li>DesertHighPlains</li>
+          </value>
+        </li>
+      </operations>
     </match>
   </Operation>
 </Patch>

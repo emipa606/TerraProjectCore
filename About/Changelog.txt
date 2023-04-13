@@ -1,5 +1,8 @@
 # Changelog for TerraProjectCore
 
+1.4.4 - Added all biomes to vanilla fishing
+
+
 1.4.3 - If Advanced Biomes is loaded the savanna in this mod is renamed to Low Savanna
 
 

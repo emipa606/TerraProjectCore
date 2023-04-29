@@ -1,5 +1,8 @@
 # Changelog for TerraProjectCore
 
+1.4.6 - Fixed the throw sand etc, in eyes having a cooldown of 15 instead of 1.5
+
+
 1.4.5 - Added all biomes to vanilla fishing, again. Steam was down last publish
 
 

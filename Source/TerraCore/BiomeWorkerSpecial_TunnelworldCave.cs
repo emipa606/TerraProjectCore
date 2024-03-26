@@ -1,5 +1,3 @@
 namespace TerraCore;
 
-public class BiomeWorkerSpecial_TunnelworldCave : BiomeWorkerSpecial
-{
-}
+public class BiomeWorkerSpecial_TunnelworldCave : BiomeWorkerSpecial;

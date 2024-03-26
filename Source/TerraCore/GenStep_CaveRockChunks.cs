@@ -26,7 +26,7 @@ public class GenStep_CaveRockChunks : GenStep
         }
 
         var modExtension = map.Biome.GetModExtension<ModExt_Biome_FeatureControl>();
-        if (modExtension == null || modExtension.overwriteRockChunks != RockChunksOverwriteType.AddToCaves)
+        if (modExtension is not { overwriteRockChunks: RockChunksOverwriteType.AddToCaves })
         {
             return;
         }

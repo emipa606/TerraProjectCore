@@ -1,5 +1,3 @@
 namespace TerraCore;
 
-public class BiomeWorkerSpecial_CaveOasis : BiomeWorkerSpecial
-{
-}
+public class BiomeWorkerSpecial_CaveOasis : BiomeWorkerSpecial;

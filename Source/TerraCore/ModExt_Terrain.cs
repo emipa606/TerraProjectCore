@@ -5,30 +5,37 @@ namespace TerraCore;
 
 public class ModExt_Terrain : DefModExtension
 {
+    private readonly MoistureLevelMinMaxEnum dryAtByKey = MoistureLevelMinMaxEnum.AlwaysMin;
+
+    private readonly WaterLevelMinMaxEnum ebbAtByKey = WaterLevelMinMaxEnum.AlwaysMin;
+
+    private readonly FertilityLevelMinMaxEnum enrichAtByKey = FertilityLevelMinMaxEnum.AlwaysMax;
+
+    private readonly WaterLevelMinMaxEnum floodAtByKey = WaterLevelMinMaxEnum.AlwaysMax;
+
+    public readonly MoistureLevelEnum moistureByKey = MoistureLevelEnum.None;
+
+    private readonly FertilityLevelMinMaxEnum parchAtByKey = FertilityLevelMinMaxEnum.AlwaysMin;
+
+    public readonly WaterLevelEnum waterByKey = WaterLevelEnum.None;
+
+    private readonly MoistureLevelMinMaxEnum wetAtByKey = MoistureLevelMinMaxEnum.AlwaysMax;
     public TerrainDef destoneTo = null;
 
     public float dryAt = -1f;
-
-    private readonly MoistureLevelMinMaxEnum dryAtByKey = MoistureLevelMinMaxEnum.AlwaysMin;
 
     public TerrainDef dryTo = null;
 
     public float ebbAt = -1f;
 
-    private readonly WaterLevelMinMaxEnum ebbAtByKey = WaterLevelMinMaxEnum.AlwaysMin;
-
     public TerrainDef ebbTo = null;
 
     public float enrichAt = -1f;
-
-    private readonly FertilityLevelMinMaxEnum enrichAtByKey = FertilityLevelMinMaxEnum.AlwaysMax;
 
     public TerrainDef enrichTo = null;
     public float fertilityStorageFactor = 1f;
 
     public float floodAt = -1f;
-
-    private readonly WaterLevelMinMaxEnum floodAtByKey = WaterLevelMinMaxEnum.AlwaysMax;
 
     public TerrainDef floodTo = null;
 
@@ -38,8 +45,6 @@ public class ModExt_Terrain : DefModExtension
 
     public float moisture = -1f;
 
-    public MoistureLevelEnum moistureByKey = MoistureLevelEnum.None;
-
     public float moistureStorageFactor = 1f;
 
     public float normalizeAfterDays = 15f;
@@ -47,8 +52,6 @@ public class ModExt_Terrain : DefModExtension
     public TerrainDef normalizeTo = null;
 
     public float parchAt = -1f;
-
-    private readonly FertilityLevelMinMaxEnum parchAtByKey = FertilityLevelMinMaxEnum.AlwaysMin;
 
     public TerrainDef parchTo = null;
 
@@ -58,11 +61,7 @@ public class ModExt_Terrain : DefModExtension
 
     public float water = -1f;
 
-    public WaterLevelEnum waterByKey = WaterLevelEnum.None;
-
     public float wetAt = -1f;
-
-    private readonly MoistureLevelMinMaxEnum wetAtByKey = MoistureLevelMinMaxEnum.AlwaysMax;
 
     public TerrainDef wetTo = null;
 

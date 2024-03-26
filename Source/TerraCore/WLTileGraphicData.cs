@@ -5,24 +5,24 @@ namespace TerraCore;
 
 public class WLTileGraphicData
 {
-    public int atlasX;
+    public readonly int atlasX;
 
-    public int atlasZ;
+    public readonly int atlasZ;
 
-    public bool drawAsQuad = true;
-    public Material material;
+    public readonly bool drawAsQuad = true;
+    public readonly Material material;
 
-    public float posOffset;
+    public readonly float posOffset;
 
-    public int rotDir;
+    public readonly int rotDir;
+
+    public readonly float sizeFactor = 1f;
+
+    public readonly int texturesInAtlasX;
+
+    public readonly int texturesInAtlasZ;
 
     public Vector3 rotVector = Vector3.up;
-
-    public float sizeFactor = 1f;
-
-    public int texturesInAtlasX;
-
-    public int texturesInAtlasZ;
 
     public WLTileGraphicData()
     {

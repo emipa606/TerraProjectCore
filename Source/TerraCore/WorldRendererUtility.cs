@@ -7,7 +7,7 @@ namespace TerraCore;
 
 public static class WorldRendererUtility
 {
-    private static readonly List<Vector3> tmpVerts = new List<Vector3>();
+    private static readonly List<Vector3> tmpVerts = [];
 
     public static void DrawTileTangentialToPlanetWithRodation(WorldGrid grid, LayerSubMesh subMesh, int tileID,
         int atlasX, int atlasZ, IntVec2 texturesInAtlas, int rotDir)

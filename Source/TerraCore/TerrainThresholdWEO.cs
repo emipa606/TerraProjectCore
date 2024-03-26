@@ -5,11 +5,10 @@ namespace TerraCore;
 
 public class TerrainThresholdWEO
 {
+    public readonly float max = 1000f;
+
+    public readonly float min = -1000f;
     public List<TerrainDef> excludeOverwrite;
-
-    public float max = 1000f;
-
-    public float min = -1000f;
     public TerrainDef terrain;
 
     public static TerrainDef TerrainAtValue(List<TerrainThresholdWEO> threshes, float val, TerrainDef current)

@@ -34,12 +34,8 @@ public class WorldLayer_SpecialBiomes : WorldLayer
         {
             var tile = grid[disposable];
             var biomeWorkerSpecial = tile.biome.WorkerSpecial();
-            if (biomeWorkerSpecial == null)
-            {
-                continue;
-            }
 
-            var wLTileGraphicData = biomeWorkerSpecial.GetWLTileGraphicData(grid, disposable);
+            var wLTileGraphicData = biomeWorkerSpecial?.GetWLTileGraphicData(grid, disposable);
             if (wLTileGraphicData == null)
             {
                 continue;

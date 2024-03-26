@@ -41,17 +41,17 @@ public class BiomeWorkerSpecial_VolcanicIsland : BiomeWorkerSpecial
     public override void PostGeneration(int tileID)
     {
         var randomInRange = BiomeChangeDigLengthMax.RandomInRange;
-        DigTilesForBiomeChange(tileID, 4, randomInRange, 2);
+        DigTilesForBiomeChange(tileID, BiomeChangeDigLengthMin, randomInRange, 2);
     }
 
     protected override void ChangeTileAfterSuccessfulDig(Tile tile, bool end)
     {
-        if (!(Rand.Value < 0.3f))
+        if (!(Rand.Value < BiomeChangeChance))
         {
             return;
         }
 
-        tile.biome = Rand.Value < 0.6f ? BiomeDefOf.Archipelago : BiomeDefOf.VolcanicIsland;
+        tile.biome = Rand.Value < ArchipelagoBiomeChance ? BiomeDefOf.Archipelago : BiomeDefOf.VolcanicIsland;
 
         GenWorldGen.UpdateTileByBiomeModExts(tile);
     }

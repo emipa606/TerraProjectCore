@@ -5,12 +5,12 @@ namespace TerraCore;
 
 public class ModExt_Buildable : DefModExtension
 {
+    public readonly MoistureLevelEnum moistureByKey = MoistureLevelEnum.None;
+
+    public readonly WaterLevelEnum waterByKey = WaterLevelEnum.None;
     public float moisture = -1f;
-    public MoistureLevelEnum moistureByKey = MoistureLevelEnum.None;
 
     public float water = -1f;
-
-    public WaterLevelEnum waterByKey = WaterLevelEnum.None;
 
     public override IEnumerable<string> ConfigErrors()
     {

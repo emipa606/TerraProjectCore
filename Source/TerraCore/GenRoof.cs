@@ -28,7 +28,7 @@ public static class GenRoof
             }
         }
 
-        GenMorphology.Dilate(list, 11, map);
+        GenMorphology.Dilate(list, deepRoofDistance, map);
         foreach (var allCell2 in map.AllCells)
         {
             if (!list.Contains(allCell2))

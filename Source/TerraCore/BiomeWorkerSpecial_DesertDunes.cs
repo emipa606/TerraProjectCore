@@ -48,7 +48,7 @@ public class BiomeWorkerSpecial_DesertDunes : BiomeWorkerSpecial
     public override void PostGeneration(int tileID)
     {
         var randomInRange = BiomeChangeDigLengthMax.RandomInRange;
-        DigTilesForBiomeChange(tileID, 0, randomInRange, 2);
+        DigTilesForBiomeChange(tileID, BiomeChangeDigLengthMin, randomInRange, 2);
     }
 
     protected override void ChangeTileAfterSuccessfulDig(Tile tile, bool end)

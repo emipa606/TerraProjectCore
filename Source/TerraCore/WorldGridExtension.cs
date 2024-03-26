@@ -9,11 +9,11 @@ namespace TerraCore;
 
 public static class WorldGridExtension
 {
-    private static readonly List<int> tmpNeighbors = new List<int>();
+    private static readonly List<int> tmpNeighbors = [];
 
-    private static readonly List<Vector3> tmpVertsSelf = new List<Vector3>();
+    private static readonly List<Vector3> tmpVertsSelf = [];
 
-    private static readonly List<Vector3> tmpVertsNeighbor = new List<Vector3>();
+    private static readonly List<Vector3> tmpVertsNeighbor = [];
 
     public static int GetDirection6WayIntFromTo(this WorldGrid grid, int fromTileID, int toTileID)
     {
@@ -38,12 +38,7 @@ public static class WorldGridExtension
             return 3;
         }
 
-        if (headingFromTo < 270f)
-        {
-            return 4;
-        }
-
-        return 5;
+        return headingFromTo < 270f ? 4 : 5;
     }
 
     public static int GetTileNeighborByDirection6WayInt(this WorldGrid grid, int tileID, int dir)

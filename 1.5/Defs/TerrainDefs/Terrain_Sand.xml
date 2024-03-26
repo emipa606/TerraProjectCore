@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TerrainDef ParentName="TerrainSandBase">
+    <defName>ParchedSand</defName>
+    <label>soft sand (parched)</label>
+    <texturePath>Terrain/Surfaces/Soil/ParchedSand</texturePath>
+    <pathCost>6</pathCost>
+    <fertility>0.10</fertility>
+    <modExtensions>
+      <li Class="TerraCore.ModExt_Terrain">
+        <moistureByKey>Parched</moistureByKey>
+        <wetTo>DrySand</wetTo>
+        <wetAtByKey>ParchedMax</wetAtByKey>
+        <enrichTo>ParchedLaterite</enrichTo>
+        <enrichAtByKey>SandMax</enrichAtByKey>
+        <floodTo>FloodedSand</floodTo>
+        <floodAtByKey>WetMax</floodAtByKey>
+        <plowTo>ParchedSandPlown</plowTo>
+      </li>
+    </modExtensions>
+  </TerrainDef>
+  <TerrainDef ParentName="TerrainSandBase">
+    <defName>DrySand</defName>
+    <label>soft sand</label>
+    <texturePath>Terrain/Surfaces/Soil/DrySand</texturePath>
+    <pathCost>6</pathCost>
+    <fertility>0.10</fertility>
+    <modExtensions>
+      <li Class="TerraCore.ModExt_Terrain">
+        <moistureByKey>Dry</moistureByKey>
+        <dryTo>ParchedSand</dryTo>
+        <dryAtByKey>DryMin</dryAtByKey>
+        <wetTo>NormalSand</wetTo>
+        <wetAtByKey>DryMax</wetAtByKey>
+        <enrichTo>DryLaterite</enrichTo>
+        <enrichAtByKey>SandMax</enrichAtByKey>
+        <floodTo>FloodedSand</floodTo>
+        <floodAtByKey>WetMax</floodAtByKey>
+        <plowTo>DrySandPlown</plowTo>
+      </li>
+    </modExtensions>
+  </TerrainDef>
+  <TerrainDef ParentName="TerrainSandBase">
+    <defName>NormalSand</defName>
+    <label>sand</label>
+    <texturePath>Terrain/Surfaces/Soil/NormalSand</texturePath>
+    <pathCost>5</pathCost>
+    <fertility>0.10</fertility>
+    <modExtensions>
+      <li Class="TerraCore.ModExt_Terrain">
+        <moistureByKey>Normal</moistureByKey>
+        <dryTo>DrySand</dryTo>
+        <dryAtByKey>NormalMin</dryAtByKey>
+        <wetTo>WetSand</wetTo>
+        <wetAtByKey>NormalMax</wetAtByKey>
+        <enrichTo>NormalLaterite</enrichTo>
+        <enrichAtByKey>SandMax</enrichAtByKey>
+        <floodTo>FloodedSand</floodTo>
+        <floodAtByKey>WetMax</floodAtByKey>
+        <plowTo>NormalSandPlown</plowTo>
+      </li>
+    </modExtensions>
+  </TerrainDef>
+  <TerrainDef ParentName="TerrainSandBase">
+    <defName>WetSand</defName>
+    <label>wet sand</label>
+    <texturePath>Terrain/Surfaces/Soil/WetSand</texturePath>
+    <pathCost>7</pathCost>
+    <fertility>0.10</fertility>
+    <modExtensions>
+      <li Class="TerraCore.ModExt_Terrain">
+        <moistureByKey>Wet</moistureByKey>
+        <dryTo>NormalSand</dryTo>
+        <dryAtByKey>WetMin</dryAtByKey>
+        <enrichTo>WetLaterite</enrichTo>
+        <enrichAtByKey>SandMax</enrichAtByKey>
+        <floodTo>FloodedSand</floodTo>
+        <floodAtByKey>WetMax</floodAtByKey>
+        <plowTo>WetSandPlown</plowTo>
+      </li>
+    </modExtensions>
+  </TerrainDef>
+  <TerrainDef ParentName="TerrainFloodedBase">
+    <defName>FloodedSand</defName>
+    <label>flooded sand</label>
+    <texturePath>Terrain/Surfaces/Soil/FloodedSand</texturePath>
+    <pathCost>11</pathCost>
+    <fertility>0.10</fertility>
+    <modExtensions>
+      <li Class="TerraCore.ModExt_Terrain">
+        <waterByKey>Flooded</waterByKey>
+        <moistureByKey>Max</moistureByKey>
+        <enrichTo>FloodedLaterite</enrichTo>
+        <enrichAtByKey>SandMax</enrichAtByKey>
+        <ebbTo>WetSand</ebbTo>
+        <ebbAtByKey>FloodedMin</ebbAtByKey>
+        <floodTo>FillerWater</floodTo>
+        <floodAtByKey>FloodedMax</floodAtByKey>
+        <freezeTo>FrozenFloodedSand</freezeTo>
+      </li>
+    </modExtensions>
+  </TerrainDef>
+  <TerrainDef ParentName="TerrainFrozenBase">
+    <defName>FrozenFloodedSand</defName>
+    <label>frozen flooded sand</label>
+    <texturePath>Terrain/Surfaces/Soil/FrozenFloodedSand</texturePath>
+    <pathCost>6</pathCost>
+    <modExtensions>
+      <li Class="TerraCore.ModExt_Terrain">
+        <waterByKey>Flooded</waterByKey>
+        <moistureByKey>Max</moistureByKey>
+        <thawTo>FloodedSand</thawTo>
+      </li>
+    </modExtensions>
+  </TerrainDef>
+</Defs>

@@ -12,23 +12,23 @@ public class GenStep_BetterCaves : GenStep
 
     private const float TunnelWidthNoiseFrequency = 0.02f;
 
-    private static readonly SimpleCurve TunnelsWidthPerRockCount = new SimpleCurve
-    {
+    private static readonly SimpleCurve TunnelsWidthPerRockCount =
+    [
         new CurvePoint(300f, 2.5f),
         new CurvePoint(600f, 4.2f),
         new CurvePoint(6000f, 9.5f),
         new CurvePoint(30000f, 15.5f)
-    };
+    ];
 
-    private static readonly HashSet<IntVec3> groupSet = new HashSet<IntVec3>();
+    private static readonly HashSet<IntVec3> groupSet = [];
 
-    private static readonly HashSet<IntVec3> groupVisited = new HashSet<IntVec3>();
+    private static readonly HashSet<IntVec3> groupVisited = [];
 
-    private static readonly List<IntVec3> subGroup = new List<IntVec3>();
+    private static readonly List<IntVec3> subGroup = [];
 
-    private static readonly List<IntVec3> tmpCells = new List<IntVec3>();
+    private static readonly List<IntVec3> tmpCells = [];
 
-    private static readonly HashSet<IntVec3> tmpGroupSet = new HashSet<IntVec3>();
+    private static readonly HashSet<IntVec3> tmpGroupSet = [];
 
     private ModuleBase directionNoise;
 
@@ -190,7 +190,7 @@ public class GenStep_BetterCaves : GenStep
         var num4 = Rand.Range(extCaves.widthOffsetPerCellMin, extCaves.widthOffsetPerCellMax);
         if (visited == null)
         {
-            visited = new HashSet<IntVec3>();
+            visited = [];
         }
 
         tmpGroupSet.Clear();
@@ -322,12 +322,9 @@ public class GenStep_BetterCaves : GenStep
             return BranchType.Room;
         }
 
-        if (value < extCaves.branchChanceTypeRoom + extCaves.branchChanceTypeTunnel)
-        {
-            return BranchType.Tunnel;
-        }
-
-        return BranchType.Normal;
+        return value < extCaves.branchChanceTypeRoom + extCaves.branchChanceTypeTunnel
+            ? BranchType.Tunnel
+            : BranchType.Normal;
     }
 
     private float CalculateBranchWidth(BranchType branchType, float prevWidth)

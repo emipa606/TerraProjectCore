@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/MapGeneratorDef[@Name="MapCommonBase"]/genSteps</xpath>
+    <value>
+      <li>ElevationFertilityPost</li>
+      <li>BetterCaves</li>
+      <li>CaveRockChunks</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/GenStepDef[defName="Caves"]/order/text()</xpath>
+    <value>12</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/GenStepDef[defName="SteamGeysers"]/genStep/validators</xpath>
+    <value>
+      <li Class="TerraCore.ScattererValidator_ExcludeBiomes">
+        <biomes>
+          <li>TundraSkerries</li>
+          <li>Atoll</li>
+        </biomes>
+      </li>
+    </value>
+  </Operation>
+</Patch>

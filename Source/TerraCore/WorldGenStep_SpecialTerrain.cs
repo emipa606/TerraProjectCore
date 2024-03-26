@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using RimWorld;
 using RimWorld.Planet;
 using Verse;
@@ -13,13 +14,14 @@ public class WorldGenStep_SpecialTerrain : WorldGenStep
 
     private const int MaxImpassableChangeDepth = 3;
 
-    private static readonly List<int> tmpNeighbors = new List<int>();
+    private static readonly List<int> tmpNeighbors = [];
 
     public override int SeedPart => 144374476;
 
     public override void GenerateFresh(string seed)
     {
-        var allDefsListForReading = DefDatabase<BiomeDef>.AllDefsListForReading;
+        var allDefsListForReading =
+            DefDatabase<BiomeDef>.AllDefsListForReading.Where(biomeDef => biomeDef.generatesNaturally).ToList();
         var list = new List<BiomeDef>();
         for (var num = allDefsListForReading.Count - 1; num >= 0; num--)
         {

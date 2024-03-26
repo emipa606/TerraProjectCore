@@ -1,5 +1,8 @@
 # Changelog for TerraProjectCore
 
+1.5.0 - Mod updated for 1.5 and passed autotests
+
+
 1.4.6 - Fixed the throw sand etc, in eyes having a cooldown of 15 instead of 1.5
 
 

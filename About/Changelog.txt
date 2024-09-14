@@ -1,5 +1,8 @@
 # Changelog for TerraProjectCore
 
+1.5.1 - Vanilla Fishing Expanded patches should now work with the added savanna from Advanced Biomes
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 

@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Terra Project (Core)</name>
   <author>Lanilor</author>
   <url>https://github.com/Lanilor/Terra-Framework</url>
   <targetVersion>0.19.0</targetVersion>
   <description>
-&lt;size=20&gt;Terra Project (Core)&lt;/size&gt;
+&lt;size=20>Terra Project (Core)&lt;/size>
 
 This mod extends the map generator with various new features to generate more biome types. Currently 13 new biomes are added, including different caves and islands.
 Other mods can also use this as a framework to create their own extended biomes.

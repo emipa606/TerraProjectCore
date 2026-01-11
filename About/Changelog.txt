@@ -1,5 +1,8 @@
 # Changelog for TerraProjectCore
 
+1.5.2 - Last update, added end-of-life message
+
+
 1.5.1 - Vanilla Fishing Expanded patches should now work with the added savanna from Advanced Biomes
 
 

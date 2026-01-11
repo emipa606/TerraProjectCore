@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="TerraProjectCore_UpdateFeatureBase">
+		<modNameReadable>TerraProjectCore</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2797366085</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="TerraProjectCore_UpdateFeatureBase">
+		<defName>TerraProjectCore_1_5_1</defName>
+		<assemblyVersion>1.5.1</assemblyVersion>
+		<content>This mod will not be further updated.</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+
